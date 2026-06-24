@@ -1,10 +1,20 @@
 /* header */
+
 header, nav, .logo{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     font-family: "Poppins";
+    text-decoration: none;    
+}
+
+.logo{
+    font-size: 30px;
+    font-style: italic;
+}
+
+nav a{
     text-decoration: none;
 }
 
@@ -18,6 +28,7 @@ header nav ul li{
     list-style-type: none;
     text-decoration: none;
 }
+
 header nav ul li a{
     list-style-type: none;
     text-decoration: none;
@@ -25,27 +36,152 @@ header nav ul li a{
     font-family: "Poppins"
 }
 
+nav a:hover{
+    color: blue;
+}
+
 /* main */
+
 .bannière{
+    display: flex;
+    border-color: ;
+    width: 75%;
+    height: 300px;
+    align-items: center;
+    margin: auto;
+    border: 3px #187498 solid;
+    border-radius: 20px;
+}
+
+.bannière h1,p{
+    margin-left: 40px;
+    color: rgb(0, 0, 0);
+    font-family: "Poppins";
+}
+
+h2{
+    text-align: center;
+    font-family: "Poppins";
+    padding: 30px 0px;
+}
+
+.service{
+    width: 30%;
+    padding: 0px 10px;
+}
+
+.service h3{
+    color: black;
+    text-align: center;
+    font-family: "Poppins";
+    padding: 2px 0px;
+}
+
+.service p{
+    color: rgb(0, 0, 0);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: auto;
+    padding: 0px 10px;
+    text-align: justify;
+    font-family: "Poppins";
+    font-size: 12px;
+}
+
+.conteneur-service{
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    margin: auto;
+}
+
+.À-propos h3{
+    color: black;
+    text-align: center;
+    font-family: "Poppins";
+    padding: 2px 5px;
+}
+
+.À-propos p{
+    color: rgb(0, 0, 0);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: auto;
+    padding: 0px 20px;
+    text-align: justify;
+    font-family: "Poppins";
+}
+
+.conteneur-À-propos{
+    width:75%;
+    padding: 0px 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: rgb(0, 0, 0);
-    width: 70%;
-    height: 200px;
-    margin: 0% 15%;
-    padding: 30px 0px;
+    margin: auto;
 }
-h3,p{
-    margin-left: 35px;
-    color: white;
-    font-family: "Poppins";
+
+img{
+    display: flex;
+    justify-content: center;
+    width: 45%;
+    margin: auto;
 }
-h2{
+
+.À-propos{
+    width: 50%;
+    padding: 0px 10px;
+}
+.abd{
+    width: 155px;
+    height: 155px;
+    border-radius: 200px;
+    background-color: gray;
+    margin: auto;
+}
+.Nous-contacter{
+    width: 30%;
+    padding: 0px 10px;
+}
+.Nous-contacter h3{
+    color: black;
     text-align: center;
     font-family: "Poppins";
 }
 
+.Nous-contacter p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: auto;
+    padding: 0px 10px;
+    text-align: center;
+    font-family: "Poppins";
+}
+
+.conteneur-Nous-contacter{
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
 
 
-/* header */
+/* footer */
+.copyright{
+    background-color: gray;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.copyright p{
+    text-align: center;
+    font-family: "Poppins";
+    color: white;
+}

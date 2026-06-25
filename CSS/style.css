@@ -18,10 +18,12 @@ header, nav, .logo{
 .logo{
     font-size: 30px;
     font-style: italic;
+    padding: 15px 15px;
 }
 
 nav a{
     text-decoration: none;
+    padding: 15px 15px;
 }
 
 header{
@@ -56,18 +58,20 @@ nav a:hover{
     margin: auto;
     border: 3px #187498 solid;
     border-radius: 20px;
+    padding-top: 15px;
 }
 
 .banniere h1,p{
     margin-left: 40px;
     color: rgb(0, 0, 0);
     font-family: "Poppins";
+    padding-bottom: 10px;
 }
 
 h2{
     text-align: center;
     font-family: "Poppins";
-    padding: 30px 0px;
+    padding: 70px 0px;
 }
 
 .service{
@@ -88,10 +92,10 @@ h2{
     font-weight: 400;
     font-style: normal;
     margin: auto;
-    padding: 0px 10px;
+    padding: 0px 20px;
     text-align: justify;
     font-family: "Poppins";
-    font-size: 12px;
+    font-size: 11px;
 }
 
 .conteneur-service{
@@ -105,7 +109,7 @@ h2{
     color: black;
     text-align: center;
     font-family: "Poppins";
-    padding: 2px 5px;
+    padding: 15px 5px;
 }
 
 .a-propos p{
@@ -145,6 +149,7 @@ img{
     border-radius: 200px;
     background-color: gray;
     margin: auto;
+    padding-bottom: 5px;
 }
 .nous-contacter{
     width: 30%;
@@ -154,6 +159,7 @@ img{
     color: black;
     text-align: center;
     font-family: "Poppins";
+    padding-bottom: 10px;
 }
 
 .nous-contacter p{
@@ -161,7 +167,7 @@ img{
     font-weight: 400;
     font-style: normal;
     margin: auto;
-    padding: 0px 10px;
+    padding: 5px 10px;
     text-align: center;
     font-family: "Poppins";
 }
@@ -189,4 +195,6 @@ a{
     text-align: center;
     font-family: "Poppins";
     color: white;
+    padding: 20px;
+    justify-content: center;
 }
